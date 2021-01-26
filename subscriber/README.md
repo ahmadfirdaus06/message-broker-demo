@@ -1,7 +1,8 @@
-1.  Install required dependencies
-
+### 1. Install required dependencies
+```
 composer install
-
-2. Run subscriber in directory
-
+```
+### 2. Run subscriber in directory
+```
 php subscriber.php
+```
