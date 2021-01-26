@@ -1,5 +1,4 @@
 # Message Broker Demo
-## Demonstrate usage of message broker
 
 ### 1. Install RabbitMQ from message-broker folder
 
