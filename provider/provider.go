@@ -45,7 +45,7 @@ func main() {
 		usagePercentage,
 	}
 
-	conn, err := amqp.Dial("amqp://guest:guest@localhost:5672/")
+	conn, err := amqp.Dial("amqp://guest:guest@localhost:5672/") //point to ip or host of RabbitMQ container
 	failOnError(err, "Failed to connect to RabbitMQ")
 	defer conn.Close()
 
